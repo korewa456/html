@@ -1,0 +1,116 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+  width: 80%;
+  padding: auto;;
+  margin: auto;
+  text-align: center;
+}
+
+.largeBox{
+  width: 655px;
+}
+.smallBox{
+  width: 300px;
+}
+.container input {
+  display: inline-block;
+  height: 40px;
+  margin: 10px 12px;
+  padding-left: 20px;
+  border-radius: 8px;
+  border-style: groove;
+  border-width: 2px;
+  border-color: whitesmoke;
+  font-size: medium;
+  font-weight: bold;
+}
+
+#checkBox{
+}
+
+#agreeText{
+  display: inline;
+  position: relative;
+  bottom: 13px;
+  right: 5px;
+  font-weight: bold;
+}
+#terms{
+  width: 60%;
+  display: inline;
+  position: relative;
+  bottom: 13px;
+  left: 50px;
+}
+#first{
+  display: inline;
+}
+#second{
+  display: inline;
+}
+.button {
+  display: inline-block;
+  color: white;
+  height: 50px;
+  margin: 10px 12px;
+  padding-left: 20px;
+  border-radius: 8px;
+  border: none;
+  font-size: medium;
+  font-weight: bold;
+  cursor: pointer;
+  width: 328px;
+}
+#register{
+  background-color: #008CBA;
+  display: inline-block;
+  color: white;
+  border-radius: 8px;
+  width: 70px;
+  height: 20px;
+  font-size: small;
+  padding-top: 3px;
+}
+
+.button1 {background-color: #008CBA;} /* Green */
+.button2 {background-color: #4CAF50;} /* Blue */
+
+
+footer {
+  position: fixed;
+  height: 100px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+}
+
+footer hr{
+  width:80%;
+}
+
+
+@media only screen and (max-width: 900px) {
+  .smallBox{
+    width: 90%;
+  }
+  .largeBox{
+    width: 90%;
+  }
+  #agreeText{
+    display: inline;
+    position: relative;
+    bottom: 13px;
+    right: 5px;
+  }
+  #terms{
+    width: 100%;
+    display: block;
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+  }
+}
