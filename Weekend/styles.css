@@ -93,7 +93,7 @@ footer hr{
 }
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 900px){
   .smallBox{
     width: 90%;
   }
@@ -112,5 +112,14 @@ footer hr{
     position: relative;
     left: 0px;
     bottom: 0px;
+  }
+  footer{
+    display: none;
+  }
+}
+
+@media only screen and (max-height: 850px){
+  footer{
+    display: none;
   }
 }
